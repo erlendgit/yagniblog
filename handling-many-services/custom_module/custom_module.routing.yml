@@ -1,0 +1,7 @@
+custom_module.multistepform:
+  path: /multistepform
+  defaults:
+    _title: "Custom form"
+    _form: Drupal\custom_module\Forms\CustomMultistepForm
+  requirements:
+    _permission: access custom_module pages
